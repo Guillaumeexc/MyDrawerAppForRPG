@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">MyDrawerAppForRPG</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="BonusFromStuff">Your Current Bonus With your Stuff Are:</string>
+    <string-array name="swords">
+        <item>"Cursed Sword"</item>
+        <item>"Excalibur"</item>
+        <item>"Cursed Katana"</item>
+    </string-array>
+
+    <string-array name="armor">
+        <item>"Cursed Plate"</item>
+        <item>"Iron Armor"</item>
+        <item>"Golden Armor"</item>
+    </string-array>
+
+    <string-array name="helmet">
+        <item>"Cursed Helmet"</item>
+        <item>"Iron Helmet"</item>
+        <item>"Golden Helmet"</item>
+    </string-array>
+
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+</resources>

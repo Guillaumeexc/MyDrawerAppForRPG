@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dungeon title="Dungeon" author="Jason">
+    <room>
+        <east>1</east>
+        <description>Entrance</description>
+    </room>
+    <room>
+        <east>2</east>
+        <west>0</west>
+        <description>The First Fight !</description>
+    </room>
+    <room>
+        <west>1</west>
+        <south>3</south>
+        <east>10</east>
+        <description>But Wait! There is more !</description>
+    </room>
+    <room>
+        <north>2</north>
+        <east>4</east>
+        <description>Campfire. You are safe here.</description>
+    </room>
+    <room>
+        <west>3</west>
+        <east>5</east>
+        <south>6</south>
+        <north>10</north>
+        <description>Oh! A treasure Chest!</description>
+    </room>
+    <room>
+        <west>4</west>
+        <south>7</south>
+        <north>11</north>
+        <east>13</east>
+        <description>A Blue Slime Now ?</description>
+    </room>
+    <room>
+        <east>7</east>
+        <north>4</north>
+        <description>Oh! A treasure Chest!</description>
+    </room>
+    <room>
+        <east>9</east>
+        <west>6</west>
+        <south>8</south>
+        <north>5</north>
+        <description>Campfire. You are safe here.</description>
+    </room>
+    <room>
+        <north>0</north>
+        <east>0</east>
+        <west>0</west>
+        <south>0</south>
+        <description>A pit. Too bad you have to enter in...</description>
+    </room>
+    <room>
+        <east>15</east>
+        <description>Your Final Encounter !</description>
+    </room>
+    <room>
+        <west>2</west>
+        <east>11</east>
+        <south>4</south>
+        <description>Oh! A treasure Chest!</description>
+    </room>
+    <room>
+        <west>10</west>
+        <east>12</east>
+        <south>5</south>
+        <description>Again ?!</description>
+    </room>
+    <room>
+        <west>11</west>
+        <east>14</east>
+        <south>13</south>
+        <description>Campfire. You are safe here.</description>
+    </room>
+    <room>
+        <west>0</west>
+        <north>0</north>
+        <south>0</south>
+        <east>0</east>
+        <description>A pit. Too bad you have to enter in...</description>
+    </room>
+    <room>
+        <west>0</west>
+        <north>0</north>
+        <south>0</south>
+        <east>0</east>
+        <description>A pit. Too bad you have to enter in...</description>
+    </room>
+    <room>
+        <description>You Won! Congratulation !!!</description>
+    </room>
+</dungeon>

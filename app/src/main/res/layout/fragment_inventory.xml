@@ -1,0 +1,97 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="com.excoffier.guillaume.mydrawerappforrpg.InventoryFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/darker_gray"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="40"
+            android:src="@drawable/ic_bag"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="30"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtBonusFromStuff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/BonusFromStuff"
+                android:textColor="@android:color/background_dark"/>
+
+            <TextView
+                android:id="@+id/txtBonus"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Bonus"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="30"
+            android:orientation="vertical"
+            android:weightSum="10">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="7"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/btnHelmet"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:drawable/menuitem_background"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/ic_helmet"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_weight="3"
+                android:weightSum="2">
+
+                <ImageButton
+                    android:id="@+id/btnSword"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@android:drawable/menuitem_background"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/ic_sword"/>
+
+                <ImageButton
+                    android:id="@+id/btnTorsal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@android:drawable/menuitem_background"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/ic_armor"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</FrameLayout>

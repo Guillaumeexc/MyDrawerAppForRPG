@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_game"
+            android:icon="@drawable/ic_console"
+            android:title="Game"/>
+        <item
+            android:id="@+id/nav_inventory"
+            android:icon="@drawable/ic_bag"
+            android:title="Inventory"/>
+        <item
+            android:id="@+id/nav_statistics"
+            android:icon="@drawable/ic_scroll"
+            android:title="Statistics"/>
+
+    </group>
+
+    <item android:title="Miscellaneous">
+        <menu>
+            <item
+                android:id="@+id/nav_achievement"
+                android:icon="@drawable/ic_trophy"
+                android:title="Achievements"/>
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@drawable/ic_contact"
+                android:title="Contact Us"/>
+        </menu>
+    </item>
+
+</menu>
